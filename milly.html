@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Happy Birthday Milly Wambani
+    </title>
+    <meta author="Joel MAloba">
+
+    
+
+    <style>
+    /* CSS styles for the animated birthday present */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color:aquamarine;
+    }
+
+    .present {
+      position: relative;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+   .navbar {
+      background-color: rgb(7, 118, 100);
+      overflow: hidden;
+      position:sticky;
+    } 
+
+    .navbar p {
+      float: left;
+      color: rgb(10, 11, 13);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      animation: slide-in 5s linear infinite;
+      
+    }
+    .navbar-logo {
+      height: 60px;
+      margin-right:auto;
+    }
+    @keyframes slide-in {
+      0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0%);
+        opacity: 1;
+      }
+    }
+
+    .sliding-text {
+      animation: slide-in 5s ease-in-out;
+    }
+    footer{
+      
+
+      background-color: rgb(5, 24, 24);
+      padding: 2px;
+      color: aliceblue;
+    
+
+    }
+    img{
+      border-radius: 100%;
+      
+    }
+  </style>
+
+</head>
+<body>
+
+   <div class="navbar">
+            <p class="sliding-text">BIRTHDAY  PRESENT FROM:EMMANUEL BARASA</p>
+            <img src="logo.jpg" alt="Logo" class="navbar-logo">
+    </div>
+          
+        <div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="present">
+        <img src="MILLY.jpg" alt="Birthday Present" width="400" class="img-fluid rounded-circle">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+      <div class="col-sx-6">
+          <h4>Dear: Milly Wambani</h4>
+          
+          <p>
+          Happy Birthday to the most amazing girlfriend in the world! 🎉🎂
+           Today is all about celebrating you and the incredible 
+           person you are. You bring so much joy, love, and warmth 
+           into my life, and I'm grateful every day to have you by my side.
+            </p>
+            <p>
+          On your special day, I want to
+          remind you of how special you are to me. Your 
+          smile lights up my world, your laughter is music to my ears, 
+          and your love fills my heart with happiness. I cherish every moment 
+          we have been together and look forward to creating many more beautiful
+            memories with you.
+            </p>
+            <p>
+          You are not only my girlfriend but also my best 
+          friend and confidant. You understand me like no one 
+          else, and your unwavering support and encouragement 
+          mean the world to me. You inspire me to be the best version 
+          of myself, and I'm grateful for your presence in my life.
+              </p>
+              <p>
+          Today, I wish for all your dreams to come true, and for this
+          new year of your life to be filled with love, success, and endless 
+          happiness. May you continue to shine brightly and achieve everything 
+          your heart desires.
+                </p>
+                <p>
+          Happy Birthday, my love! Thank you 
+          for being the incredible person that you are.
+          I'm excited to celebrate this special day with you 
+          and make it unforgettable. Sending you all my love, hugs, 
+          and kisses on your birthday and always! 🎈❤️🥳
+          </p>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <footer>
+  <p>Longing to have life plans with You.</p>
+  <p>I <b>LOVE</b> you: SweetHeart.</P>
+
+
+ </footer>
+
+    <script>
+    // JavaScript code for the animated birthday present
+    window.onload = function() {
+      var present = document.querySelector('.present');
+      present.addEventListener('click', function() {
+        present.style.animation = 'none';
+        void present.offsetWidth;
+        present.style.animation = 'bounce 5s infinite';
+      });
+    };
+  </script>
+  <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js">
+    
+  </script>
+    
+</body>
+</html>
